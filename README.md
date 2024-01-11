@@ -12,7 +12,7 @@ Table Library (API) - https://create.roblox.com/docs/reference/engine/libraries/
 
 ## Basic Usage:
 
-Go to the creative script panel. Create a script a name it to whatever you want. Copy & paste the script from the `TableLibraryModule.lua`  then require it by using `require()` and put the script name in the `require()` in another script. Save it.
+Go to the creative script panel. Create a script a name it to whatever you want. Copy & paste the script from the `TableLibraryModule.lua`  then require it by using `require()` from another script and put the script name in the `require()`. After that, save the module and the other script then rerun.
 
 ```lua
 local TableLibModule = require('TableModule') --- Put the script name in the require() like this
