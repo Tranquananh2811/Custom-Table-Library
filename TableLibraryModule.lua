@@ -146,7 +146,7 @@ return {
         local maxIndex = 0
 
         for i, v in pairs(tbl) do
-            if type(i) == "number" and i > maxIndex and math.floor(i) == i and i > 0 then
+            if tonumber(i) ~= nil and i > maxIndex and math.floor(i) == i and i > 0 then
                 maxIndex = i
             end
         end
